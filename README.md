@@ -1,3 +1,0 @@
-# catapulta
-sffdnhsuiajokfgjfdsxzcvgff
-blah blah blah....
