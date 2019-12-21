@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilos/index.css">
+	<title>Catapulta v.2</title>
+	
+</head>
+<body>
+	<div id="menu">
+			<div id="menu1" class='menu'><h1 class='index_titulo'>INDEX</h1><a class='menu_links' href=''><div class='menu_div'>Opcion 1</div></a><a class='menu_links' href=''><div class='menu_div'>Opcion 2</div></a></div>
+		</div>
+	<div class="page">	
+		<div class="cabecera" ><a href="javascript:menu()"><img src="imagenes/menu.png"></a></div>
+		<h1 class="titulo_inicial">Ejemplo</h1>
+	</div>
+	<script src="jquery/jquery.min.js"></script>
+	<script type="text/javascript">
+	
+	//declarar variables
+
+	var menu1 = "<div class='menu'><h1 class='index_titulo'>INDEX</h1><a class='menu_links' href=''><div class='menu_div'>Opcion 1</div></a><a class='menu_links' href=''><div class='menu_div'>Opcion 2</div></a></div>"
+	
+	var x = false
+	
+	//Ocultar el menu inicial
+
+		if (x == false) {
+				console.log(false)
+
+				document.getElementById("menu1").style.marginLeft= "calc(-31% - 10px)";
+				
+				x = true
+			} else{
+				if (x == true) {
+				console.log(true)
+				document.getElementById("menu1").style.marginLeft="-10px";
+				x= false;
+				}
+			}
+	
+	//declarar funciones
+		//Funcion que oculta y despliega el menu
+		function menu() {
+			if (x == false) {
+				console.log(false)
+				setTimeout("a('-1%')",1)
+				setTimeout("a('-2%')",10)
+				setTimeout("a('-3%')",20)
+				setTimeout("a('-4%')",30)
+				setTimeout("a('-5%')",40)
+				setTimeout("a('-6%')",50)
+				setTimeout("a('-7%')",60)
+				setTimeout("a('-8%')",70)
+				setTimeout("a('-9%')",80)
+				setTimeout("a('-10%')",90)
+				setTimeout("a('-11%')",100)
+				setTimeout("a('-12%')",110)
+				setTimeout("a('-13%')",120)
+				setTimeout("a('-14%')",130)
+				setTimeout("a('-15%')",140)
+				setTimeout("a('-16%')",150)
+				setTimeout("a('-17%')",160)
+				setTimeout("a('-18%')",170)
+				setTimeout("a('-19%')",180)
+				setTimeout("a('-20%')",190)
+				setTimeout("a('-21%')",200)
+				setTimeout("a('-22%')",210)
+				setTimeout("a('-23%')",220)
+				setTimeout("a('-24%')",230)
+				setTimeout("a('-25%')",240)
+				setTimeout("a('-26%')",250)
+				setTimeout("a('-27%')",260)
+				setTimeout("a('-28%')",270)
+				setTimeout("a('-29%')",280)
+				setTimeout("a('-30%')",290)
+				setTimeout("a('calc(-31% - 100px)')",300)
+				x = true
+			} else{
+				if (x == true) {
+				console.log(true)
+				setTimeout("a('-31%')",1)
+				setTimeout("a('-30%')",10)
+				setTimeout("a('-29%')",20)
+				setTimeout("a('-28%')",30)
+				setTimeout("a('-27%')",40)
+				setTimeout("a('-26%')",50)
+				setTimeout("a('-25%')",60)
+				setTimeout("a('-24%')",70)
+				setTimeout("a('-23%')",80)
+				setTimeout("a('-22%')",90)
+				setTimeout("a('-21%')",100)
+				setTimeout("a('-20%')",110)
+				setTimeout("a('-19%')",120)
+				setTimeout("a('-18%')",130)
+				setTimeout("a('-17%')",140)
+				setTimeout("a('-16%')",150)
+				setTimeout("a('-15%')",160)
+				setTimeout("a('-14%')",170)
+				setTimeout("a('-13%')",180)
+				setTimeout("a('-12%')",190)
+				setTimeout("a('-11%')",200)
+				setTimeout("a('-10%')",210)
+				setTimeout("a('-9%')",220)
+				setTimeout("a('-8%')",230)
+				setTimeout("a('-7%')",240)
+				setTimeout("a('-6%')",250)
+				setTimeout("a('-5%')",260)
+				setTimeout("a('-4%')",270)
+				setTimeout("a('-3%')",280)
+				setTimeout("a('-2%')",290)
+				setTimeout("a('-1%')",300)
+				setTimeout("a('-10px')",310)
+				x= false;
+				}
+			}
+		}
+		//Funcion que determina como se hara el despliege del menu
+		function a(a) {
+			document.getElementById("menu1").style.marginLeft = a;
+			console.log(a);
+		}
+	</script>
+	<script src="javascript/menu.js" type="text/javascript"></script>
+</body>
+</html>

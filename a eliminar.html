@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E</title>
+	<style type="text/css">
+		body{
+			
+		}
+		.slider{
+			background-color: red;			
+		}
+		.first{
+			opacity: 1;
+		}
+		img{
+			height: 200px;
+			width: 200px;
+		}
+	</style>
+	<script type="text/javascript">
+		function lol(y) {
+			document.getElementById(y).style.opacity = 1;
+			setTimeout("document.getElementById(y).style.opacity = 0.5;"400)
+			document.getElementById(y).style.opacity = 0;
+			sleep
+		}
+	</script>
+</head>
+<body>
+<div class="slider" >
+	<img class="first" id="sl_1" src="https://previews.123rf.com/images/nbvf/nbvf1204/nbvf120400819/13229365-seamless-fondo-abstracto-geom%C3%A9trico-hecho-de-brillantes-figuras-cuadradas-brillantes.jpg">
+</div>
+<button onclick="javascript:lol('sl_1')">AHHHHHHHH</button>
+<script type="text/javascript">
+	document.getElementById("sl_1").style.opacity = "0.5";
+</script>
+</body>
+</html>
